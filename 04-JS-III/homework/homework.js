@@ -3,7 +3,7 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un array
   // Tu código:
-  return array [0] 
+  return array [0];
 
 }
 
@@ -11,13 +11,13 @@ function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
  // return array [array.length-1]
- return array.pop()
+ return array.pop();
 }
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
-  return array.length
+  return array.length;
 }
 
 function incrementarPorUno(array) {
@@ -26,7 +26,9 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
     var narray = []; 
-    for (var i = 0; i < array.length; i++) {narray[i] = (array[i]+1)} 
+    for (var i = 0; i < array.length; i++) {
+      narray[i] = (array[i]+1);
+    } 
     return narray;
 }
 
@@ -37,8 +39,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Tu código:
   
  array.push(elemento);
- return array
- 
+ return array;
   
 }
 
@@ -49,7 +50,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // Tu código:
  
   array.unshift(elemento);
-  return array
+  return array;
 }
 
 function dePalabrasAFrase(palabras) {
@@ -77,36 +78,36 @@ function agregarNumeros(numeros) {
   // Suma todos los enteros y devuelve el valor
   // Tu código:
    var suma = 0;
-   for (var i=0; i<numeros.length; i++) 
-    {suma = suma + numeros[i]}
-return suma
-  
+   for (var i=0; i<numeros.length; i++) {
+    suma = suma + numeros[i];
+  }
+   return suma;  
 }
 
 function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-   var suma = 0
-   for (var i=0; i< resultadosTest.length; i++) 
-    {suma = suma + resultadosTest[i]};
-  return (suma/resultadosTest.length);
+   var suma = 0;
+   for (var i=0; i< resultadosTest.length; i++) {
+    suma = suma + resultadosTest[i];
+  }
+   return (suma/resultadosTest.length);
 }
 
 function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
- var max = numeros[0]
-  for (var i= 0; i < numeros.length; i++) {max = Math.max(max,numeros[i])};
-  return max
-
+ var max = numeros[0];
+  for (var i= 0; i < numeros.length; i++) {
+    max = Math.max(max,numeros[i]);
+  }
+  return max;
+}
 /*var Max=0;
   for (var i=0;i<numeros.length;i++) {if (numeros[i]>Max) {Max=numeros[i]}};
     return Max*/
- 
-  
-}
 
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
@@ -115,16 +116,15 @@ function multiplicarArgumentos() {
   // Tu código:
   
 
-  
-  if (arguments.length===0) {return 0};
-  if (arguments.length===1) {return arguments[0]};
+  if (arguments.length===0) {
+    return 0};
+  if (arguments.length===1) {
+    return arguments[0]};
   var mult = arguments[0];
-  for (i=1; i<arguments.length;i++) {mult *=arguments[i]}; 
-    {return mult};
+  for (i=1; i<arguments.length;i++) {
+    mult *=arguments[i]}; 
+  {return mult};
   
-    
-  
-
 }
 
 // No modificar nada debajo de esta línea
