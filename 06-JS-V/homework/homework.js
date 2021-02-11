@@ -15,13 +15,11 @@ function Usuario(opciones) {
   this.password=opciones.password
 }
 
-Usuario.prototype.saludar= function() {return 'Hola, mi nombre es ' + this.nombre}
-
-
+Usuario.prototype.saludar= function() {
+  return 'Hola, mi nombre es ' + this.nombre;
+}
 
 return Usuario;
-
-
 }
 
 
@@ -31,7 +29,7 @@ function agregarMetodoPrototype(Constructor) {
   // El método debe llamarse "saludar" y debe devolver la string "Hello World!"
   // Tu código:
 Constructor.prototype.saludar= function() {
-  return 'Hello World!'
+  return 'Hello World!';
 }
 }
 
