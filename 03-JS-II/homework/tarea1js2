@@ -1,0 +1,6 @@
+   for: bucle, declaracion condicional se usa para repetir codigo muchas veces, evalua una expresion tras otra hasta que el resultado sea un valor booleano negativo. se establece una variable, luego una condicion de frenado y por ultimo el incremento o paso. 
+   oeradores logicos:funcionan para tipos de datos booleanos
+   && y/and : se deben dar ambas condiciones
+   || o/or : se debe dar una de las 2 condiciones propuestas
+   ! no/not: niega la condicion previamente propuesta.
+

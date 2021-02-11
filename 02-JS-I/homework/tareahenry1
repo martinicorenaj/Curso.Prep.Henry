@@ -1,5 +1,5 @@
 variable: palabras a las cuales le podemos asignar valores o datos.
-string: tipo de datos, conjunto de letras que,se escriben entre comillas.
+string: tipo de datos, conjunto de caracteres que,se escriben entre comillas.
 funcion (argumentos) son variables que declaramos dentro de la funcion d y toman valor cuando invocamos la funcion, van entre parentesis y separados por comas.
 funcion (return): es una palabra clave que hace que la funcion nos devuelva un valor por unica vez, finaliza la ejecucion de la funcion. 
 declaracion if: declaracion condicional, nos devuelve los valores verdaderos o falsos dependiendo de las condiciones que planteemos.
